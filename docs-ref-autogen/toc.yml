@@ -1,1 +1,9 @@
-[]
+- name: azure
+  uid: azure
+- items:
+  - name: azure.eventprocessorhost.abstract_event_processor.AbstractEventProcessor
+    uid: azure.eventprocessorhost.abstract_event_processor.AbstractEventProcessor
+  name: azure.eventprocessorhost.abstract_event_processor
+  uid: azure.eventprocessorhost.abstract_event_processor
+- name: tests
+  uid: tests

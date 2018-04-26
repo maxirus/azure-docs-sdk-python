@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: azure
+  langs:
+  - python
+  module: azure
+  name: azure
+  source:
+    id: azure
+    path: azure-common\azure\__init__.py
+    remote:
+      branch: develop
+      path: azure-common\azure\__init__.py
+      repo: https://github.com/Azure/azure-event-hubs-python.git
+    startLine: 0
+  type: package
+  uid: azure
+references: []
