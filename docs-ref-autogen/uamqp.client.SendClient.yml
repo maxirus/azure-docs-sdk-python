@@ -1,0 +1,197 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.client.SendClient.close
+  - uamqp.client.SendClient.messages_pending
+  - uamqp.client.SendClient.queue_message
+  - uamqp.client.SendClient.send_all_messages
+  - uamqp.client.SendClient.send_message
+  - uamqp.client.SendClient.wait
+  class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.client.AMQPClient
+  langs:
+  - python
+  module: uamqp.client
+  name: SendClient
+  source:
+    id: SendClient
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 178
+  summary: '
+
+
+
+
+
+    '
+  syntax:
+    content: SendClient(target, auth=None, client_name=None, debug=False, msg_timeout=0,
+      **kwargs)
+  type: class
+  uid: uamqp.client.SendClient
+- class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient.close
+  langs:
+  - python
+  module: uamqp.client
+  name: close
+  source:
+    id: close
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 235
+  syntax:
+    content: close()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.client.SendClient.close
+- class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient.messages_pending
+  langs:
+  - python
+  module: uamqp.client
+  name: messages_pending
+  source:
+    id: messages_pending
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 268
+  syntax:
+    content: messages_pending()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.client.SendClient.messages_pending
+- class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient.queue_message
+  langs:
+  - python
+  module: uamqp.client
+  name: queue_message
+  source:
+    id: queue_message
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 242
+  syntax:
+    content: queue_message(messages)
+    parameters:
+    - id: self
+    - id: messages
+  type: method
+  uid: uamqp.client.SendClient.queue_message
+- class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient.send_all_messages
+  langs:
+  - python
+  module: uamqp.client
+  name: send_all_messages
+  source:
+    id: send_all_messages
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 275
+  syntax:
+    content: send_all_messages(close_on_done=True)
+    parameters:
+    - id: self
+    - defaultValue: 'True'
+      id: close_on_done
+  type: method
+  uid: uamqp.client.SendClient.send_all_messages
+- class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient.send_message
+  langs:
+  - python
+  module: uamqp.client
+  name: send_message
+  source:
+    id: send_message
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 247
+  syntax:
+    content: send_message(messages, close_on_done=False)
+    parameters:
+    - id: self
+    - id: messages
+    - defaultValue: 'False'
+      id: close_on_done
+  type: method
+  uid: uamqp.client.SendClient.send_message
+- class: uamqp.client.SendClient
+  fullName: uamqp.client.SendClient.wait
+  langs:
+  - python
+  module: uamqp.client
+  name: wait
+  source:
+    id: wait
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 271
+  syntax:
+    content: wait()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.client.SendClient.wait
+references:
+- fullName: uamqp.client.SendClient.close
+  isExternal: false
+  name: close
+  parent: uamqp.client.SendClient
+  uid: uamqp.client.SendClient.close
+- fullName: uamqp.client.SendClient.messages_pending
+  isExternal: false
+  name: messages_pending
+  parent: uamqp.client.SendClient
+  uid: uamqp.client.SendClient.messages_pending
+- fullName: uamqp.client.SendClient.queue_message
+  isExternal: false
+  name: queue_message
+  parent: uamqp.client.SendClient
+  uid: uamqp.client.SendClient.queue_message
+- fullName: uamqp.client.SendClient.send_all_messages
+  isExternal: false
+  name: send_all_messages
+  parent: uamqp.client.SendClient
+  uid: uamqp.client.SendClient.send_all_messages
+- fullName: uamqp.client.SendClient.send_message
+  isExternal: false
+  name: send_message
+  parent: uamqp.client.SendClient
+  uid: uamqp.client.SendClient.send_message
+- fullName: uamqp.client.SendClient.wait
+  isExternal: false
+  name: wait
+  parent: uamqp.client.SendClient
+  uid: uamqp.client.SendClient.wait

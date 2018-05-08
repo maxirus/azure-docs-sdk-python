@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: uamqp.errors.AuthenticationException
+  fullName: uamqp.errors.AuthenticationException
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: builtins.BaseException
+    type: builtins.Exception
+  langs:
+  - python
+  module: uamqp.errors
+  name: AuthenticationException
+  source:
+    id: AuthenticationException
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\errors.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\errors.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 22
+  syntax: {}
+  type: class
+  uid: uamqp.errors.AuthenticationException
+references: []

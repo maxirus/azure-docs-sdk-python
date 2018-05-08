@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.authentication.AMQPAuth.close
+  - uamqp.authentication.AMQPAuth.set_tlsio
+  class: uamqp.authentication.AMQPAuth
+  fullName: uamqp.authentication.AMQPAuth
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.authentication
+  name: AMQPAuth
+  source:
+    id: AMQPAuth
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 42
+  summary: '
+
+    '
+  syntax:
+    content: AMQPAuth(hostname, port=5671)
+  type: class
+  uid: uamqp.authentication.AMQPAuth
+- class: uamqp.authentication.AMQPAuth
+  fullName: uamqp.authentication.AMQPAuth.close
+  langs:
+  - python
+  module: uamqp.authentication
+  name: close
+  source:
+    id: close
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 57
+  syntax:
+    content: close()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.authentication.AMQPAuth.close
+- class: uamqp.authentication.AMQPAuth
+  fullName: uamqp.authentication.AMQPAuth.set_tlsio
+  langs:
+  - python
+  module: uamqp.authentication
+  name: set_tlsio
+  source:
+    id: set_tlsio
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 49
+  syntax:
+    content: set_tlsio(hostname, port)
+    parameters:
+    - id: self
+    - id: hostname
+    - id: port
+  type: method
+  uid: uamqp.authentication.AMQPAuth.set_tlsio
+references:
+- fullName: uamqp.authentication.AMQPAuth.close
+  isExternal: false
+  name: close
+  parent: uamqp.authentication.AMQPAuth
+  uid: uamqp.authentication.AMQPAuth.close
+- fullName: uamqp.authentication.AMQPAuth.set_tlsio
+  isExternal: false
+  name: set_tlsio
+  parent: uamqp.authentication.AMQPAuth
+  uid: uamqp.authentication.AMQPAuth.set_tlsio

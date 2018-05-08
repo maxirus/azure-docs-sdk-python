@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.message.ValueBody.set
+  class: uamqp.message.ValueBody
+  fullName: uamqp.message.ValueBody
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.message.MessageBody
+  langs:
+  - python
+  module: uamqp.message
+  name: ValueBody
+  source:
+    id: ValueBody
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 481
+  summary: '
+
+    '
+  syntax:
+    content: ValueBody(c_message)
+  type: class
+  uid: uamqp.message.ValueBody
+- class: uamqp.message.ValueBody
+  fullName: uamqp.message.ValueBody.set
+  langs:
+  - python
+  module: uamqp.message
+  name: set
+  source:
+    id: set
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 483
+  syntax:
+    content: set(value)
+    parameters:
+    - id: self
+    - id: value
+  type: method
+  uid: uamqp.message.ValueBody.set
+references:
+- fullName: uamqp.message.ValueBody.set
+  isExternal: false
+  name: set
+  parent: uamqp.message.ValueBody
+  uid: uamqp.message.ValueBody.set

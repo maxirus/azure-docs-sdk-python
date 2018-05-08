@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.async.connection_async.ConnectionAsync.destroy_async
+  - uamqp.async.connection_async.ConnectionAsync.open_async
+  - uamqp.async.connection_async.ConnectionAsync.work_async
+  class: uamqp.async.connection_async.ConnectionAsync
+  fullName: uamqp.async.connection_async.ConnectionAsync
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.connection.Connection
+  langs:
+  - python
+  module: uamqp.async.connection_async
+  name: ConnectionAsync
+  source:
+    id: ConnectionAsync
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 17
+  summary: '
+
+
+    '
+  syntax:
+    content: ConnectionAsync(hostname, sasl, container_id=False, max_frame_size=None,
+      channel_max=None, idle_timeout=None, properties=None, remote_idle_timeout_empty_frame_send_ratio=None,
+      debug=False, loop=None)
+  type: class
+  uid: uamqp.async.connection_async.ConnectionAsync
+- class: uamqp.async.connection_async.ConnectionAsync
+  fullName: uamqp.async.connection_async.ConnectionAsync.destroy_async
+  langs:
+  - python
+  module: uamqp.async.connection_async
+  name: destroy_async
+  source:
+    id: destroy_async
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 54
+  syntax:
+    content: destroy_async()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.async.connection_async.ConnectionAsync.destroy_async
+- class: uamqp.async.connection_async.ConnectionAsync
+  fullName: uamqp.async.connection_async.ConnectionAsync.open_async
+  langs:
+  - python
+  module: uamqp.async.connection_async
+  name: open_async
+  source:
+    id: open_async
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 51
+  syntax:
+    content: open_async()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.async.connection_async.ConnectionAsync.open_async
+- class: uamqp.async.connection_async.ConnectionAsync
+  fullName: uamqp.async.connection_async.ConnectionAsync.work_async
+  langs:
+  - python
+  module: uamqp.async.connection_async
+  name: work_async
+  source:
+    id: work_async
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\connection_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 46
+  syntax:
+    content: work_async()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.async.connection_async.ConnectionAsync.work_async
+references:
+- fullName: uamqp.async.connection_async.ConnectionAsync.destroy_async
+  isExternal: false
+  name: destroy_async
+  parent: uamqp.async.connection_async.ConnectionAsync
+  uid: uamqp.async.connection_async.ConnectionAsync.destroy_async
+- fullName: uamqp.async.connection_async.ConnectionAsync.open_async
+  isExternal: false
+  name: open_async
+  parent: uamqp.async.connection_async.ConnectionAsync
+  uid: uamqp.async.connection_async.ConnectionAsync.open_async
+- fullName: uamqp.async.connection_async.ConnectionAsync.work_async
+  isExternal: false
+  name: work_async
+  parent: uamqp.async.connection_async.ConnectionAsync
+  uid: uamqp.async.connection_async.ConnectionAsync.work_async

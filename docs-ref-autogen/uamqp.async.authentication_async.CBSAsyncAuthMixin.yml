@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.async.authentication_async.CBSAsyncAuthMixin.close_authenticator_async
+  - uamqp.async.authentication_async.CBSAsyncAuthMixin.create_authenticator_async
+  - uamqp.async.authentication_async.CBSAsyncAuthMixin.handle_token_async
+  class: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.authentication.CBSAuthMixin
+  langs:
+  - python
+  module: uamqp.async.authentication_async
+  name: CBSAsyncAuthMixin
+  source:
+    id: CBSAsyncAuthMixin
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 20
+  summary: '
+
+
+    '
+  syntax: {}
+  type: class
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin
+- class: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin.close_authenticator_async
+  langs:
+  - python
+  module: uamqp.async.authentication_async
+  name: close_authenticator_async
+  source:
+    id: close_authenticator_async
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 45
+  syntax:
+    content: close_authenticator_async()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin.close_authenticator_async
+- class: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin.create_authenticator_async
+  langs:
+  - python
+  module: uamqp.async.authentication_async
+  name: create_authenticator_async
+  source:
+    id: create_authenticator_async
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 22
+  syntax:
+    content: create_authenticator_async(connection, debug=False, loop=None)
+    parameters:
+    - id: self
+    - id: connection
+    - defaultValue: 'False'
+      id: debug
+    - defaultValue: None
+      id: loop
+  type: method
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin.create_authenticator_async
+- class: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin.handle_token_async
+  langs:
+  - python
+  module: uamqp.async.authentication_async
+  name: handle_token_async
+  source:
+    id: handle_token_async
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\async\authentication_async.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 49
+  syntax:
+    content: handle_token_async()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin.handle_token_async
+references:
+- fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin.close_authenticator_async
+  isExternal: false
+  name: close_authenticator_async
+  parent: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin.close_authenticator_async
+- fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin.create_authenticator_async
+  isExternal: false
+  name: create_authenticator_async
+  parent: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin.create_authenticator_async
+- fullName: uamqp.async.authentication_async.CBSAsyncAuthMixin.handle_token_async
+  isExternal: false
+  name: handle_token_async
+  parent: uamqp.async.authentication_async.CBSAsyncAuthMixin
+  uid: uamqp.async.authentication_async.CBSAsyncAuthMixin.handle_token_async

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: uamqp.authentication.SASLAnonymous
+  fullName: uamqp.authentication.SASLAnonymous
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.authentication.AMQPAuth
+  langs:
+  - python
+  module: uamqp.authentication
+  name: SASLAnonymous
+  source:
+    id: SASLAnonymous
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 73
+  syntax:
+    content: SASLAnonymous(hostname, port=5671)
+  type: class
+  uid: uamqp.authentication.SASLAnonymous
+references: []

@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.client.AMQPClient
+  - uamqp.client.ReceiveClient
+  - uamqp.client.SendClient
+  fullName: uamqp.client
+  langs:
+  - python
+  module: uamqp.client
+  name: client
+  source:
+    id: client
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 0
+  type: module
+  uid: uamqp.client
+references:
+- fullName: uamqp.client.AMQPClient
+  isExternal: false
+  name: AMQPClient
+  parent: uamqp.client
+  uid: uamqp.client.AMQPClient
+- fullName: uamqp.client.ReceiveClient
+  isExternal: false
+  name: ReceiveClient
+  parent: uamqp.client
+  uid: uamqp.client.ReceiveClient
+- fullName: uamqp.client.SendClient
+  isExternal: false
+  name: SendClient
+  parent: uamqp.client
+  uid: uamqp.client.SendClient

@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.mgmt_operation.MgmtOperation.destroy
+  - uamqp.mgmt_operation.MgmtOperation.execute
+  class: uamqp.mgmt_operation.MgmtOperation
+  fullName: uamqp.mgmt_operation.MgmtOperation
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.mgmt_operation
+  name: MgmtOperation
+  source:
+    id: MgmtOperation
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\mgmt_operation.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\mgmt_operation.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 19
+  summary: '
+
+    '
+  syntax:
+    content: MgmtOperation(session, target=None, status_code_field=b'statusCode',
+      description_fields=b'statusDescription')
+  type: class
+  uid: uamqp.mgmt_operation.MgmtOperation
+- class: uamqp.mgmt_operation.MgmtOperation
+  fullName: uamqp.mgmt_operation.MgmtOperation.destroy
+  langs:
+  - python
+  module: uamqp.mgmt_operation
+  name: destroy
+  source:
+    id: destroy
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\mgmt_operation.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\mgmt_operation.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 72
+  syntax:
+    content: destroy()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.mgmt_operation.MgmtOperation.destroy
+- class: uamqp.mgmt_operation.MgmtOperation
+  fullName: uamqp.mgmt_operation.MgmtOperation.execute
+  langs:
+  - python
+  module: uamqp.mgmt_operation
+  name: execute
+  source:
+    id: execute
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\mgmt_operation.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\mgmt_operation.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 48
+  syntax:
+    content: execute(operation, op_type, message, timeout=0)
+    parameters:
+    - id: self
+    - id: operation
+    - id: op_type
+    - id: message
+    - defaultValue: '0'
+      id: timeout
+  type: method
+  uid: uamqp.mgmt_operation.MgmtOperation.execute
+references:
+- fullName: uamqp.mgmt_operation.MgmtOperation.destroy
+  isExternal: false
+  name: destroy
+  parent: uamqp.mgmt_operation.MgmtOperation
+  uid: uamqp.mgmt_operation.MgmtOperation.destroy
+- fullName: uamqp.mgmt_operation.MgmtOperation.execute
+  isExternal: false
+  name: execute
+  parent: uamqp.mgmt_operation.MgmtOperation
+  uid: uamqp.mgmt_operation.MgmtOperation.execute

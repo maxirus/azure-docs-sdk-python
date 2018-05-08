@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.client.ReceiveClient.close
+  - uamqp.client.ReceiveClient.receive_message_batch
+  - uamqp.client.ReceiveClient.receive_messages
+  - uamqp.client.ReceiveClient.receive_messages_iter
+  class: uamqp.client.ReceiveClient
+  fullName: uamqp.client.ReceiveClient
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.client.AMQPClient
+  langs:
+  - python
+  module: uamqp.client
+  name: ReceiveClient
+  source:
+    id: ReceiveClient
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 290
+  summary: '
+
+
+
+    '
+  syntax:
+    content: ReceiveClient(source, auth=None, client_name=None, debug=False, timeout=0,
+      **kwargs)
+  type: class
+  uid: uamqp.client.ReceiveClient
+- class: uamqp.client.ReceiveClient
+  fullName: uamqp.client.ReceiveClient.close
+  langs:
+  - python
+  module: uamqp.client
+  name: close
+  source:
+    id: close
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 424
+  syntax:
+    content: close()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.client.ReceiveClient.close
+- class: uamqp.client.ReceiveClient
+  fullName: uamqp.client.ReceiveClient.receive_message_batch
+  langs:
+  - python
+  module: uamqp.client
+  name: receive_message_batch
+  source:
+    id: receive_message_batch
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 368
+  syntax:
+    content: receive_message_batch(max_batch_size=None, on_message_received=None,
+      timeout=0)
+    parameters:
+    - id: self
+    - defaultValue: None
+      id: max_batch_size
+    - defaultValue: None
+      id: on_message_received
+    - defaultValue: '0'
+      id: timeout
+  type: method
+  uid: uamqp.client.ReceiveClient.receive_message_batch
+- class: uamqp.client.ReceiveClient
+  fullName: uamqp.client.ReceiveClient.receive_messages
+  langs:
+  - python
+  module: uamqp.client
+  name: receive_messages
+  source:
+    id: receive_messages
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 405
+  syntax:
+    content: receive_messages(on_message_received)
+    parameters:
+    - id: self
+    - id: on_message_received
+  type: method
+  uid: uamqp.client.ReceiveClient.receive_messages
+- class: uamqp.client.ReceiveClient
+  fullName: uamqp.client.ReceiveClient.receive_messages_iter
+  langs:
+  - python
+  module: uamqp.client
+  name: receive_messages_iter
+  source:
+    id: receive_messages_iter
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\client.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 419
+  syntax:
+    content: receive_messages_iter(on_message_received=None)
+    parameters:
+    - id: self
+    - defaultValue: None
+      id: on_message_received
+  type: method
+  uid: uamqp.client.ReceiveClient.receive_messages_iter
+references:
+- fullName: uamqp.client.ReceiveClient.close
+  isExternal: false
+  name: close
+  parent: uamqp.client.ReceiveClient
+  uid: uamqp.client.ReceiveClient.close
+- fullName: uamqp.client.ReceiveClient.receive_message_batch
+  isExternal: false
+  name: receive_message_batch
+  parent: uamqp.client.ReceiveClient
+  uid: uamqp.client.ReceiveClient.receive_message_batch
+- fullName: uamqp.client.ReceiveClient.receive_messages
+  isExternal: false
+  name: receive_messages
+  parent: uamqp.client.ReceiveClient
+  uid: uamqp.client.ReceiveClient.receive_messages
+- fullName: uamqp.client.ReceiveClient.receive_messages_iter
+  isExternal: false
+  name: receive_messages_iter
+  parent: uamqp.client.ReceiveClient
+  uid: uamqp.client.ReceiveClient.receive_messages_iter

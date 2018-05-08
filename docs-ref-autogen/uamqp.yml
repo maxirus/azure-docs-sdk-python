@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.get_platform_info
+  - uamqp.receive_message
+  - uamqp.receive_messages
+  - uamqp.send_message
+  - uamqp.async
+  fullName: uamqp
+  langs:
+  - python
+  module: uamqp
+  name: uamqp
+  source:
+    id: uamqp
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 0
+  type: package
+  uid: uamqp
+- fullName: uamqp.get_platform_info
+  langs:
+  - python
+  module: uamqp
+  name: get_platform_info
+  source:
+    id: get_platform_info
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 84
+  syntax:
+    content: get_platform_info(self)
+    parameters:
+    - id: self
+  type: function
+  uid: uamqp.get_platform_info
+- fullName: uamqp.receive_message
+  langs:
+  - python
+  module: uamqp
+  name: receive_message
+  source:
+    id: receive_message
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 45
+  syntax:
+    content: receive_message(source, auth=None, timeout=0, debug=False)
+    parameters:
+    - id: source
+    - defaultValue: None
+      id: auth
+    - defaultValue: '0'
+      id: timeout
+    - defaultValue: 'False'
+      id: debug
+  type: function
+  uid: uamqp.receive_message
+- fullName: uamqp.receive_messages
+  langs:
+  - python
+  module: uamqp
+  name: receive_messages
+  source:
+    id: receive_messages
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 53
+  syntax:
+    content: receive_messages(source, auth=None, max_batch_size=None, timeout=0, debug=False,
+      **kwargs)
+    parameters:
+    - id: source
+    - defaultValue: None
+      id: auth
+    - defaultValue: None
+      id: max_batch_size
+    - defaultValue: '0'
+      id: timeout
+    - defaultValue: 'False'
+      id: debug
+  type: function
+  uid: uamqp.receive_messages
+- fullName: uamqp.send_message
+  langs:
+  - python
+  module: uamqp
+  name: send_message
+  source:
+    id: send_message
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\__init__.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 38
+  syntax:
+    content: send_message(target, data, auth=None, debug=False)
+    parameters:
+    - id: target
+    - id: data
+    - defaultValue: None
+      id: auth
+    - defaultValue: 'False'
+      id: debug
+  type: function
+  uid: uamqp.send_message
+references:
+- fullName: uamqp.get_platform_info
+  isExternal: false
+  name: get_platform_info
+  parent: uamqp
+  uid: uamqp.get_platform_info
+- fullName: uamqp.receive_message
+  isExternal: false
+  name: receive_message
+  parent: uamqp
+  uid: uamqp.receive_message
+- fullName: uamqp.receive_messages
+  isExternal: false
+  name: receive_messages
+  parent: uamqp
+  uid: uamqp.receive_messages
+- fullName: uamqp.send_message
+  isExternal: false
+  name: send_message
+  parent: uamqp
+  uid: uamqp.send_message
+- fullName: uamqp.async
+  isExternal: false
+  name: async
+  parent: uamqp
+  uid: uamqp.async

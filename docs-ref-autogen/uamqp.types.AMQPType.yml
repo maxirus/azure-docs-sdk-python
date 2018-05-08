@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: uamqp.types.AMQPType
+  fullName: uamqp.types.AMQPType
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.types
+  name: AMQPType
+  source:
+    id: AMQPType
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\types.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\types.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 16
+  summary: '
+
+    '
+  syntax:
+    content: AMQPType(value)
+  type: class
+  uid: uamqp.types.AMQPType
+references: []

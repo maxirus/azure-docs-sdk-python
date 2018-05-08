@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.authentication.SASTokenAuth.close
+  - uamqp.authentication.SASTokenAuth.from_connection_string
+  - uamqp.authentication.SASTokenAuth.from_sas_token
+  - uamqp.authentication.SASTokenAuth.from_shared_access_key
+  - uamqp.authentication.SASTokenAuth.update_token
+  class: uamqp.authentication.SASTokenAuth
+  fullName: uamqp.authentication.SASTokenAuth
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.authentication.AMQPAuth
+  - inheritance:
+    - type: builtins.object
+    type: uamqp.authentication.CBSAuthMixin
+  langs:
+  - python
+  module: uamqp.authentication
+  name: SASTokenAuth
+  source:
+    id: SASTokenAuth
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 156
+  summary: '
+
+
+
+
+    '
+  syntax:
+    content: SASTokenAuth(audience, uri, token, expires_in=None, expires_at=None,
+      username=None, password=None, port=5671, timeout=10, retry_policy=<uamqp.authentication.TokenRetryPolicy
+      object>, token_type=b'servicebus.windows.net:sastoken')
+  type: class
+  uid: uamqp.authentication.SASTokenAuth
+- class: uamqp.authentication.SASTokenAuth
+  fullName: uamqp.authentication.SASTokenAuth.close
+  langs:
+  - python
+  module: uamqp.authentication
+  name: close
+  source:
+    id: close
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 194
+  syntax:
+    content: close()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.authentication.SASTokenAuth.close
+- class: uamqp.authentication.SASTokenAuth
+  fullName: uamqp.authentication.SASTokenAuth.from_connection_string
+  langs:
+  - python
+  module: uamqp.authentication
+  name: from_connection_string
+  source:
+    id: from_connection_string
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 197
+  syntax:
+    content: from_connection_string(connection_str)
+    parameters:
+    - id: cls
+    - id: connection_str
+  type: method
+  uid: uamqp.authentication.SASTokenAuth.from_connection_string
+- class: uamqp.authentication.SASTokenAuth
+  fullName: uamqp.authentication.SASTokenAuth.from_sas_token
+  langs:
+  - python
+  module: uamqp.authentication
+  name: from_sas_token
+  source:
+    id: from_sas_token
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 201
+  syntax:
+    content: from_sas_token(sas_token)
+    parameters:
+    - id: cls
+    - id: sas_token
+  type: method
+  uid: uamqp.authentication.SASTokenAuth.from_sas_token
+- class: uamqp.authentication.SASTokenAuth
+  fullName: uamqp.authentication.SASTokenAuth.from_shared_access_key
+  langs:
+  - python
+  module: uamqp.authentication
+  name: from_shared_access_key
+  source:
+    id: from_shared_access_key
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 213
+  syntax:
+    content: from_shared_access_key(uri, key_name, shared_access_key, expiry=None,
+      timeout=10)
+    parameters:
+    - id: cls
+    - id: uri
+    - id: key_name
+    - id: shared_access_key
+    - defaultValue: None
+      id: expiry
+    - defaultValue: '10'
+      id: timeout
+  type: method
+  uid: uamqp.authentication.SASTokenAuth.from_shared_access_key
+- class: uamqp.authentication.SASTokenAuth
+  fullName: uamqp.authentication.SASTokenAuth.update_token
+  langs:
+  - python
+  module: uamqp.authentication
+  name: update_token
+  source:
+    id: update_token
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 205
+  syntax:
+    content: update_token()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.authentication.SASTokenAuth.update_token
+references:
+- fullName: uamqp.authentication.SASTokenAuth.close
+  isExternal: false
+  name: close
+  parent: uamqp.authentication.SASTokenAuth
+  uid: uamqp.authentication.SASTokenAuth.close
+- fullName: uamqp.authentication.SASTokenAuth.from_connection_string
+  isExternal: false
+  name: from_connection_string
+  parent: uamqp.authentication.SASTokenAuth
+  uid: uamqp.authentication.SASTokenAuth.from_connection_string
+- fullName: uamqp.authentication.SASTokenAuth.from_sas_token
+  isExternal: false
+  name: from_sas_token
+  parent: uamqp.authentication.SASTokenAuth
+  uid: uamqp.authentication.SASTokenAuth.from_sas_token
+- fullName: uamqp.authentication.SASTokenAuth.from_shared_access_key
+  isExternal: false
+  name: from_shared_access_key
+  parent: uamqp.authentication.SASTokenAuth
+  uid: uamqp.authentication.SASTokenAuth.from_shared_access_key
+- fullName: uamqp.authentication.SASTokenAuth.update_token
+  isExternal: false
+  name: update_token
+  parent: uamqp.authentication.SASTokenAuth
+  uid: uamqp.authentication.SASTokenAuth.update_token

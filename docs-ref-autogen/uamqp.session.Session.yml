@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.session.Session.destroy
+  - uamqp.session.Session.mgmt_request
+  class: uamqp.session.Session
+  fullName: uamqp.session.Session
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.session
+  name: Session
+  source:
+    id: Session
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\session.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\session.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 18
+  summary: '
+
+
+
+
+    '
+  syntax:
+    content: Session(connection, incoming_window=None, outgoing_window=None, handle_max=None)
+  type: class
+  uid: uamqp.session.Session
+- class: uamqp.session.Session
+  fullName: uamqp.session.Session.destroy
+  langs:
+  - python
+  module: uamqp.session
+  name: destroy
+  source:
+    id: destroy
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\session.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\session.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 60
+  syntax:
+    content: destroy()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.session.Session.destroy
+- class: uamqp.session.Session
+  fullName: uamqp.session.Session.mgmt_request
+  langs:
+  - python
+  module: uamqp.session
+  name: mgmt_request
+  source:
+    id: mgmt_request
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\session.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\session.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 42
+  syntax:
+    content: mgmt_request(message, operation, op_type=None, node=None, **kwargs)
+    parameters:
+    - id: self
+    - id: message
+    - id: operation
+    - defaultValue: None
+      id: op_type
+    - defaultValue: None
+      id: node
+  type: method
+  uid: uamqp.session.Session.mgmt_request
+references:
+- fullName: uamqp.session.Session.destroy
+  isExternal: false
+  name: destroy
+  parent: uamqp.session.Session
+  uid: uamqp.session.Session.destroy
+- fullName: uamqp.session.Session.mgmt_request
+  isExternal: false
+  name: mgmt_request
+  parent: uamqp.session.Session
+  uid: uamqp.session.Session.mgmt_request

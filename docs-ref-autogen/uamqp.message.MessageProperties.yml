@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: uamqp.message.MessageProperties
+  fullName: uamqp.message.MessageProperties
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.message
+  name: MessageProperties
+  source:
+    id: MessageProperties
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 213
+  summary: '
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: MessageProperties(message_id=None, user_id=None, to=None, subject=None,
+      reply_to=None, correlation_id=None, content_type=None, content_encoding=None,
+      absolute_expiry_time=None, creation_time=None, group_id=None, group_sequence=None,
+      reply_to_group_id=None, properties=None)
+  type: class
+  uid: uamqp.message.MessageProperties
+references: []

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: uamqp.message.MessageHeader
+  fullName: uamqp.message.MessageHeader
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.message
+  name: MessageHeader
+  source:
+    id: MessageHeader
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 495
+  summary: '
+
+
+
+
+    '
+  syntax:
+    content: MessageHeader(header=None)
+  type: class
+  uid: uamqp.message.MessageHeader
+references: []

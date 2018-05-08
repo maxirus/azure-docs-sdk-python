@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.message.Message.gather
+  - uamqp.message.Message.get_data
+  - uamqp.message.Message.get_message
+  - uamqp.message.Message.get_message_encoded_size
+  class: uamqp.message.Message
+  fullName: uamqp.message.Message
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.message
+  name: Message
+  source:
+    id: Message
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 17
+  summary: '
+
+
+
+    '
+  syntax:
+    content: Message(body=None, properties=None, application_properties=None, annotations=None,
+      msg_format=None, message=None)
+  type: class
+  uid: uamqp.message.Message
+- class: uamqp.message.Message
+  fullName: uamqp.message.Message.gather
+  langs:
+  - python
+  module: uamqp.message
+  name: gather
+  source:
+    id: gather
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 121
+  syntax:
+    content: gather()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.message.Message.gather
+- class: uamqp.message.Message
+  fullName: uamqp.message.Message.get_data
+  langs:
+  - python
+  module: uamqp.message
+  name: get_data
+  source:
+    id: get_data
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 116
+  syntax:
+    content: get_data()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.message.Message.get_data
+- class: uamqp.message.Message
+  fullName: uamqp.message.Message.get_message
+  langs:
+  - python
+  module: uamqp.message
+  name: get_message
+  source:
+    id: get_message
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 124
+  syntax:
+    content: get_message()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.message.Message.get_message
+- class: uamqp.message.Message
+  fullName: uamqp.message.Message.get_message_encoded_size
+  langs:
+  - python
+  module: uamqp.message
+  name: get_message_encoded_size
+  source:
+    id: get_message_encoded_size
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\message.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 112
+  syntax:
+    content: get_message_encoded_size()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.message.Message.get_message_encoded_size
+references:
+- fullName: uamqp.message.Message.gather
+  isExternal: false
+  name: gather
+  parent: uamqp.message.Message
+  uid: uamqp.message.Message.gather
+- fullName: uamqp.message.Message.get_data
+  isExternal: false
+  name: get_data
+  parent: uamqp.message.Message
+  uid: uamqp.message.Message.get_data
+- fullName: uamqp.message.Message.get_message
+  isExternal: false
+  name: get_message
+  parent: uamqp.message.Message
+  uid: uamqp.message.Message.get_message
+- fullName: uamqp.message.Message.get_message_encoded_size
+  isExternal: false
+  name: get_message_encoded_size
+  parent: uamqp.message.Message
+  uid: uamqp.message.Message.get_message_encoded_size

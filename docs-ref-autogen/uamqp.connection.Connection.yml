@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - uamqp.connection.Connection.destroy
+  - uamqp.connection.Connection.work
+  class: uamqp.connection.Connection
+  fullName: uamqp.connection.Connection
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.connection
+  name: Connection
+  source:
+    id: Connection
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\connection.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\connection.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 20
+  summary: '
+
+
+
+
+
+
+    '
+  syntax:
+    content: Connection(hostname, sasl, container_id=False, max_frame_size=None, channel_max=None,
+      idle_timeout=None, properties=None, remote_idle_timeout_empty_frame_send_ratio=None,
+      debug=False)
+  type: class
+  uid: uamqp.connection.Connection
+- class: uamqp.connection.Connection
+  fullName: uamqp.connection.Connection.destroy
+  langs:
+  - python
+  module: uamqp.connection
+  name: destroy
+  source:
+    id: destroy
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\connection.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\connection.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 68
+  syntax:
+    content: destroy()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.connection.Connection.destroy
+- class: uamqp.connection.Connection
+  fullName: uamqp.connection.Connection.work
+  langs:
+  - python
+  module: uamqp.connection
+  name: work
+  source:
+    id: work
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\connection.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\connection.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 75
+  syntax:
+    content: work()
+    parameters:
+    - id: self
+  type: method
+  uid: uamqp.connection.Connection.work
+references:
+- fullName: uamqp.connection.Connection.destroy
+  isExternal: false
+  name: destroy
+  parent: uamqp.connection.Connection
+  uid: uamqp.connection.Connection.destroy
+- fullName: uamqp.connection.Connection.work
+  isExternal: false
+  name: work
+  parent: uamqp.connection.Connection
+  uid: uamqp.connection.Connection.work

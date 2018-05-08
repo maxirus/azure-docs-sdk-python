@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: uamqp.authentication.TokenRetryPolicy
+  fullName: uamqp.authentication.TokenRetryPolicy
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: uamqp.authentication
+  name: TokenRetryPolicy
+  source:
+    id: TokenRetryPolicy
+    path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+    remote:
+      branch: master
+      path: uamqp-0.1.0b4-py3.6-win32.egg\uamqp\authentication.py
+      repo: https://github.com/Azure/azure-uamqp-python
+    startLine: 35
+  syntax:
+    content: TokenRetryPolicy(retries=3, backoff=0)
+  type: class
+  uid: uamqp.authentication.TokenRetryPolicy
+references: []
