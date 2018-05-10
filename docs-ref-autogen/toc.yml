@@ -20165,11 +20165,6 @@
   name: adal
   uid: adal
 - items:
-  - name: doc.conf
-    uid: doc.conf
-  name: doc
-  uid: doc
-- items:
   - name: pydocumentdb.auth
     uid: pydocumentdb.auth
   - name: pydocumentdb.base
@@ -20342,5 +20337,3 @@
     uid: pydocumentdb.utils
   name: pydocumentdb
   uid: pydocumentdb
-- name: test
-  uid: test
