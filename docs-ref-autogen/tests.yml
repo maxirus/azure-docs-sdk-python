@@ -2,13 +2,13 @@
 api_name: []
 items:
 - children: []
-  fullName: azure
+  fullName: tests
   langs:
   - python
-  module: azure
-  name: azure
+  module: tests
+  name: tests
   source:
-    id: azure
+    id: tests
     path: null
     remote:
       branch: dev
@@ -16,5 +16,5 @@ items:
       repo: https://github.com/Azure/azure-functions-python-worker
     startLine: null
   type: module
-  uid: azure
+  uid: tests
 references: []
