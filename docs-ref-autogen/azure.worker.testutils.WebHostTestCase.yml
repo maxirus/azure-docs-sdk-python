@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.testutils.WebHostTestCase.get_script_dir
+  - azure.worker.testutils.WebHostTestCase.setUpClass
+  - azure.worker.testutils.WebHostTestCase.tearDownClass
+  - azure.worker.testutils.WebHostTestCase.host_stdout_logger
+  class: azure.worker.testutils.WebHostTestCase
+  fullName: azure.worker.testutils.WebHostTestCase
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: unittest.case.TestCase
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: WebHostTestCase
+  source:
+    id: WebHostTestCase
+    path: azure\worker\testutils.py
+    remote:
+      branch: dev
+      path: azure\worker\testutils.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 82
+  summary: 'Base class for integration tests that need a WebHost.
+
+
+    In addition to automatically starting up a WebHost instance,
+
+    this test case class logs WebHost stdout/stderr in case
+
+    a unit test fails.
+
+
+
+
+
+    '
+  syntax:
+    content: WebHostTestCase(methodName='runTest')
+  type: class
+  uid: azure.worker.testutils.WebHostTestCase
+- class: azure.worker.testutils.WebHostTestCase
+  fullName: azure.worker.testutils.WebHostTestCase.get_script_dir
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: get_script_dir
+  source:
+    id: get_script_dir
+    path: azure\worker\testutils.py
+    remote:
+      branch: dev
+      path: azure\worker\testutils.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 92
+  syntax:
+    content: get_script_dir()
+    parameters:
+    - id: cls
+  type: method
+  uid: azure.worker.testutils.WebHostTestCase.get_script_dir
+- class: azure.worker.testutils.WebHostTestCase
+  fullName: azure.worker.testutils.WebHostTestCase.setUpClass
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: setUpClass
+  source:
+    id: setUpClass
+    path: azure\worker\testutils.py
+    remote:
+      branch: dev
+      path: azure\worker\testutils.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 96
+  syntax:
+    content: setUpClass()
+    parameters:
+    - id: cls
+  type: method
+  uid: azure.worker.testutils.WebHostTestCase.setUpClass
+- class: azure.worker.testutils.WebHostTestCase
+  fullName: azure.worker.testutils.WebHostTestCase.tearDownClass
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: tearDownClass
+  source:
+    id: tearDownClass
+    path: azure\worker\testutils.py
+    remote:
+      branch: dev
+      path: azure\worker\testutils.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 118
+  syntax:
+    content: tearDownClass()
+    parameters:
+    - id: cls
+  type: method
+  uid: azure.worker.testutils.WebHostTestCase.tearDownClass
+- class: azure.worker.testutils.WebHostTestCase
+  fullName: azure.worker.testutils.WebHostTestCase.host_stdout_logger
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: host_stdout_logger
+  syntax:
+    content: host_stdout_logger = <Logger webhosttests (WARNING)>
+  type: attribute
+  uid: azure.worker.testutils.WebHostTestCase.host_stdout_logger
+references:
+- fullName: azure.worker.testutils.WebHostTestCase.get_script_dir
+  isExternal: false
+  name: get_script_dir
+  parent: azure.worker.testutils.WebHostTestCase
+  uid: azure.worker.testutils.WebHostTestCase.get_script_dir
+- fullName: azure.worker.testutils.WebHostTestCase.setUpClass
+  isExternal: false
+  name: setUpClass
+  parent: azure.worker.testutils.WebHostTestCase
+  uid: azure.worker.testutils.WebHostTestCase.setUpClass
+- fullName: azure.worker.testutils.WebHostTestCase.tearDownClass
+  isExternal: false
+  name: tearDownClass
+  parent: azure.worker.testutils.WebHostTestCase
+  uid: azure.worker.testutils.WebHostTestCase.tearDownClass
+- fullName: azure.worker.testutils.WebHostTestCase.host_stdout_logger
+  isExternal: false
+  name: host_stdout_logger
+  parent: azure.worker.testutils.WebHostTestCase
+  uid: azure.worker.testutils.WebHostTestCase.host_stdout_logger

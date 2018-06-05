@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.worker.testutils.WebHostTestCaseMeta
+  fullName: azure.worker.testutils.WebHostTestCaseMeta
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: builtins.type
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: WebHostTestCaseMeta
+  source:
+    id: WebHostTestCaseMeta
+    path: azure\worker\testutils.py
+    remote:
+      branch: dev
+      path: azure\worker\testutils.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 67
+  syntax: {}
+  type: class
+  uid: azure.worker.testutils.WebHostTestCaseMeta
+references: []

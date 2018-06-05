@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.aio_compat
+  - azure.worker.dispatcher
+  - azure.worker.functions
+  - azure.worker.loader
+  - azure.worker.testutils
+  - azure.worker.start
+  - azure.worker.start_async
+  - azure.worker.bindings
+  - azure.worker.protos
+  fullName: azure.worker
+  langs:
+  - python
+  module: azure.worker
+  name: worker
+  source:
+    id: worker
+    path: azure\worker\__init__.py
+    remote:
+      branch: dev
+      path: azure\worker\__init__.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 0
+  type: package
+  uid: azure.worker
+- fullName: azure.worker.start
+  langs:
+  - python
+  module: azure.worker
+  name: start
+  source:
+    id: start
+    path: azure\worker\__init__.py
+    remote:
+      branch: dev
+      path: azure\worker\__init__.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 13
+  syntax:
+    content: 'start(host: str, port: int, worker_id: str, request_id: str, grpc_max_msg_len:
+      int)'
+  type: function
+  uid: azure.worker.start
+- fullName: azure.worker.start_async
+  langs:
+  - python
+  module: azure.worker
+  name: start_async
+  source:
+    id: start_async
+    path: azure\worker\__init__.py
+    remote:
+      branch: dev
+      path: azure\worker\__init__.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 5
+  syntax:
+    content: start_async(host, port, worker_id, request_id, grpc_max_msg_len)
+    parameters:
+    - id: host
+    - id: port
+    - id: worker_id
+    - id: request_id
+    - id: grpc_max_msg_len
+  type: function
+  uid: azure.worker.start_async
+references:
+- fullName: azure.worker.aio_compat
+  isExternal: false
+  name: aio_compat
+  parent: azure.worker.aio_compat
+  uid: azure.worker.aio_compat
+- fullName: azure.worker.dispatcher
+  isExternal: false
+  name: dispatcher
+  parent: azure.worker.dispatcher
+  uid: azure.worker.dispatcher
+- fullName: azure.worker.functions
+  isExternal: false
+  name: functions
+  parent: azure.worker.functions
+  uid: azure.worker.functions
+- fullName: azure.worker.loader
+  isExternal: false
+  name: loader
+  parent: azure.worker.loader
+  uid: azure.worker.loader
+- fullName: azure.worker.testutils
+  isExternal: false
+  name: testutils
+  parent: azure.worker.testutils
+  uid: azure.worker.testutils
+- fullName: azure.worker.start
+  isExternal: false
+  name: start
+  parent: azure.worker
+  uid: azure.worker.start
+- fullName: azure.worker.start_async
+  isExternal: false
+  name: start_async
+  parent: azure.worker
+  uid: azure.worker.start_async
+- fullName: azure.worker.bindings
+  isExternal: false
+  name: bindings
+  parent: azure.worker
+  uid: azure.worker.bindings
+- fullName: azure.worker.protos
+  isExternal: false
+  name: protos
+  parent: azure.worker
+  uid: azure.worker.protos

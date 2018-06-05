@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.functions.FunctionInfo
+  - azure.worker.functions.FunctionLoadError
+  - azure.worker.functions.ParamTypeInfo
+  - azure.worker.functions.Registry
+  fullName: azure.worker.functions
+  langs:
+  - python
+  module: azure.worker.functions
+  name: functions
+  source:
+    id: functions
+    path: azure\worker\functions.py
+    remote:
+      branch: dev
+      path: azure\worker\functions.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 0
+  type: module
+  uid: azure.worker.functions
+references:
+- fullName: azure.worker.functions.FunctionInfo
+  isExternal: false
+  name: FunctionInfo
+  parent: azure.worker.functions
+  uid: azure.worker.functions.FunctionInfo
+- fullName: azure.worker.functions.FunctionLoadError
+  isExternal: false
+  name: FunctionLoadError
+  parent: azure.worker.functions
+  uid: azure.worker.functions.FunctionLoadError
+- fullName: azure.worker.functions.ParamTypeInfo
+  isExternal: false
+  name: ParamTypeInfo
+  parent: azure.worker.functions
+  uid: azure.worker.functions.ParamTypeInfo
+- fullName: azure.worker.functions.Registry
+  isExternal: false
+  name: Registry
+  parent: azure.worker.functions
+  uid: azure.worker.functions.Registry

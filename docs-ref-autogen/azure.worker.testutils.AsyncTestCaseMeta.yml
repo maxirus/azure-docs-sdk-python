@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: azure.worker.testutils.AsyncTestCaseMeta
+  fullName: azure.worker.testutils.AsyncTestCaseMeta
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: builtins.type
+  langs:
+  - python
+  module: azure.worker.testutils
+  name: AsyncTestCaseMeta
+  source:
+    id: AsyncTestCaseMeta
+    path: azure\worker\testutils.py
+    remote:
+      branch: dev
+      path: azure\worker\testutils.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 45
+  syntax: {}
+  type: class
+  uid: azure.worker.testutils.AsyncTestCaseMeta
+references: []

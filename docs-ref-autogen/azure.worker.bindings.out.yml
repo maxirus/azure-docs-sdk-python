@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.bindings.Out.get
+  - azure.worker.bindings.Out.set
+  class: azure.worker.bindings.Out
+  fullName: azure.worker.bindings.Out
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: abc.ABC
+    - inheritance:
+      - type: builtins.object
+      type: typing.Generic
+    type: azure.functions._abc.Out
+  langs:
+  - python
+  module: azure.worker.bindings
+  name: Out
+  source:
+    id: Out
+    path: azure\worker\bindings\out.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\out.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 4
+  summary: '
+
+    '
+  syntax:
+    content: Out()
+  type: class
+  uid: azure.worker.bindings.Out
+- class: azure.worker.bindings.Out
+  fullName: azure.worker.bindings.Out.get
+  langs:
+  - python
+  module: azure.worker.bindings
+  name: get
+  source:
+    id: get
+    path: azure\worker\bindings\out.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\out.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 12
+  syntax:
+    content: get()
+    parameters: []
+  type: method
+  uid: azure.worker.bindings.Out.get
+- class: azure.worker.bindings.Out
+  fullName: azure.worker.bindings.Out.set
+  langs:
+  - python
+  module: azure.worker.bindings
+  name: set
+  source:
+    id: set
+    path: azure\worker\bindings\out.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\out.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 9
+  syntax:
+    content: set(val)
+    parameters:
+    - id: val
+  type: method
+  uid: azure.worker.bindings.Out.set
+references:
+- fullName: azure.worker.bindings.Out.get
+  isExternal: false
+  name: get
+  parent: azure.worker.bindings.Out
+  uid: azure.worker.bindings.Out.get
+- fullName: azure.worker.bindings.Out.set
+  isExternal: false
+  name: set
+  parent: azure.worker.bindings.Out
+  uid: azure.worker.bindings.Out.set

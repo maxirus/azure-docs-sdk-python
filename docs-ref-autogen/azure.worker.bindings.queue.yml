@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.bindings.queue.QueueMessage
+  - azure.worker.bindings.queue.QueueMessageInConverter
+  - azure.worker.bindings.queue.QueueMessageOutConverter
+  fullName: azure.worker.bindings.queue
+  langs:
+  - python
+  module: azure.worker.bindings.queue
+  name: queue
+  source:
+    id: queue
+    path: azure\worker\bindings\queue.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\queue.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 0
+  type: module
+  uid: azure.worker.bindings.queue
+references:
+- fullName: azure.worker.bindings.queue.QueueMessage
+  isExternal: false
+  name: QueueMessage
+  parent: azure.worker.bindings.queue
+  uid: azure.worker.bindings.queue.QueueMessage
+- fullName: azure.worker.bindings.queue.QueueMessageInConverter
+  isExternal: false
+  name: QueueMessageInConverter
+  parent: azure.worker.bindings.queue
+  uid: azure.worker.bindings.queue.QueueMessageInConverter
+- fullName: azure.worker.bindings.queue.QueueMessageOutConverter
+  isExternal: false
+  name: QueueMessageOutConverter
+  parent: azure.worker.bindings.queue
+  uid: azure.worker.bindings.queue.QueueMessageOutConverter

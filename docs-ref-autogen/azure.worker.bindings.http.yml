@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.bindings.http.HttpRequest
+  - azure.worker.bindings.http.HttpRequestConverter
+  - azure.worker.bindings.http.HttpResponseConverter
+  fullName: azure.worker.bindings.http
+  langs:
+  - python
+  module: azure.worker.bindings.http
+  name: http
+  source:
+    id: http
+    path: azure\worker\bindings\http.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\http.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 0
+  type: module
+  uid: azure.worker.bindings.http
+references:
+- fullName: azure.worker.bindings.http.HttpRequest
+  isExternal: false
+  name: HttpRequest
+  parent: azure.worker.bindings.http
+  uid: azure.worker.bindings.http.HttpRequest
+- fullName: azure.worker.bindings.http.HttpRequestConverter
+  isExternal: false
+  name: HttpRequestConverter
+  parent: azure.worker.bindings.http
+  uid: azure.worker.bindings.http.HttpRequestConverter
+- fullName: azure.worker.bindings.http.HttpResponseConverter
+  isExternal: false
+  name: HttpResponseConverter
+  parent: azure.worker.bindings.http
+  uid: azure.worker.bindings.http.HttpResponseConverter

@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.bindings.cosmosdb.CosmosDBConverter
+  - azure.worker.bindings.cosmosdb.CosmosDBTriggerConverter
+  fullName: azure.worker.bindings.cosmosdb
+  langs:
+  - python
+  module: azure.worker.bindings.cosmosdb
+  name: cosmosdb
+  source:
+    id: cosmosdb
+    path: azure\worker\bindings\cosmosdb.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\cosmosdb.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 0
+  type: module
+  uid: azure.worker.bindings.cosmosdb
+references:
+- fullName: azure.worker.bindings.cosmosdb.CosmosDBConverter
+  isExternal: false
+  name: CosmosDBConverter
+  parent: azure.worker.bindings.cosmosdb
+  uid: azure.worker.bindings.cosmosdb.CosmosDBConverter
+- fullName: azure.worker.bindings.cosmosdb.CosmosDBTriggerConverter
+  isExternal: false
+  name: CosmosDBTriggerConverter
+  parent: azure.worker.bindings.cosmosdb
+  uid: azure.worker.bindings.cosmosdb.CosmosDBTriggerConverter

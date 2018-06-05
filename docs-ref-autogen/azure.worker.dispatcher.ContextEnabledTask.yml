@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.dispatcher.ContextEnabledTask.set_azure_invocation_id
+  class: azure.worker.dispatcher.ContextEnabledTask
+  fullName: azure.worker.dispatcher.ContextEnabledTask
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: _asyncio.Future
+    type: _asyncio.Task
+  langs:
+  - python
+  module: azure.worker.dispatcher
+  name: ContextEnabledTask
+  source:
+    id: ContextEnabledTask
+    path: azure\worker\dispatcher.py
+    remote:
+      branch: dev
+      path: azure\worker\dispatcher.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 374
+  syntax:
+    content: ContextEnabledTask(coro, loop)
+  type: class
+  uid: azure.worker.dispatcher.ContextEnabledTask
+- class: azure.worker.dispatcher.ContextEnabledTask
+  fullName: azure.worker.dispatcher.ContextEnabledTask.set_azure_invocation_id
+  langs:
+  - python
+  module: azure.worker.dispatcher
+  name: set_azure_invocation_id
+  source:
+    id: set_azure_invocation_id
+    path: azure\worker\dispatcher.py
+    remote:
+      branch: dev
+      path: azure\worker\dispatcher.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 388
+  syntax:
+    content: set_azure_invocation_id(invocation_id)
+    parameters:
+    - id: invocation_id
+  type: method
+  uid: azure.worker.dispatcher.ContextEnabledTask.set_azure_invocation_id
+references:
+- fullName: azure.worker.dispatcher.ContextEnabledTask.set_azure_invocation_id
+  isExternal: false
+  name: set_azure_invocation_id
+  parent: azure.worker.dispatcher.ContextEnabledTask
+  uid: azure.worker.dispatcher.ContextEnabledTask.set_azure_invocation_id

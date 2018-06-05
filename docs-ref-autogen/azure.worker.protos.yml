@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: azure.worker.protos
+  langs:
+  - python
+  module: azure.worker.protos
+  name: protos
+  source:
+    id: protos
+    path: azure\worker\protos\__init__.py
+    remote:
+      branch: dev
+      path: azure\worker\protos\__init__.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 0
+  type: package
+  uid: azure.worker.protos
+references: []

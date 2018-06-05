@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker
+  fullName: azure
+  langs:
+  - python
+  module: azure
+  name: azure
+  source:
+    id: azure
+    path: null
+    remote:
+      branch: dev
+      path: null
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: null
+  type: package
+  uid: azure
+references:
+- fullName: azure.worker
+  isExternal: false
+  name: worker
+  parent: azure
+  uid: azure.worker

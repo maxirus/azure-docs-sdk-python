@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - azure.worker.bindings.blob.InputStream.read
+  - azure.worker.bindings.blob.InputStream.readable
+  - azure.worker.bindings.blob.InputStream.seekable
+  - azure.worker.bindings.blob.InputStream.writable
+  class: azure.worker.bindings.blob.InputStream
+  fullName: azure.worker.bindings.blob.InputStream
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: _io._IOBase
+        type: _io._BufferedIOBase
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: _io._IOBase
+        type: io.IOBase
+      type: io.BufferedIOBase
+    - inheritance:
+      - type: builtins.object
+      type: abc.ABC
+    type: azure.functions._abc.InputStream
+  langs:
+  - python
+  module: azure.worker.bindings.blob
+  name: InputStream
+  source:
+    id: InputStream
+    path: azure\worker\bindings\blob.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\blob.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 10
+  summary: '
+
+
+
+
+
+
+    '
+  syntax:
+    content: 'InputStream(*, data: bytes, name: typing.Union[str, NoneType] = None,
+      uri: typing.Union[str, NoneType] = None, length: typing.Union[int, NoneType]
+      = None) -> None'
+  type: class
+  uid: azure.worker.bindings.blob.InputStream
+- class: azure.worker.bindings.blob.InputStream
+  fullName: azure.worker.bindings.blob.InputStream.read
+  langs:
+  - python
+  module: azure.worker.bindings.blob
+  name: read
+  source:
+    id: read
+    path: azure\worker\bindings\blob.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\blob.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 32
+  syntax:
+    content: read(size=-1) -> bytes
+  type: method
+  uid: azure.worker.bindings.blob.InputStream.read
+- class: azure.worker.bindings.blob.InputStream
+  fullName: azure.worker.bindings.blob.InputStream.readable
+  langs:
+  - python
+  module: azure.worker.bindings.blob
+  name: readable
+  source:
+    id: readable
+    path: azure\worker\bindings\blob.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\blob.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 35
+  syntax:
+    content: readable() -> bool
+  type: method
+  uid: azure.worker.bindings.blob.InputStream.readable
+- class: azure.worker.bindings.blob.InputStream
+  fullName: azure.worker.bindings.blob.InputStream.seekable
+  langs:
+  - python
+  module: azure.worker.bindings.blob
+  name: seekable
+  source:
+    id: seekable
+    path: azure\worker\bindings\blob.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\blob.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 38
+  syntax:
+    content: seekable() -> bool
+  type: method
+  uid: azure.worker.bindings.blob.InputStream.seekable
+- class: azure.worker.bindings.blob.InputStream
+  fullName: azure.worker.bindings.blob.InputStream.writable
+  langs:
+  - python
+  module: azure.worker.bindings.blob
+  name: writable
+  source:
+    id: writable
+    path: azure\worker\bindings\blob.py
+    remote:
+      branch: dev
+      path: azure\worker\bindings\blob.py
+      repo: https://github.com/Azure/azure-functions-python-worker
+    startLine: 41
+  syntax:
+    content: writable() -> bool
+  type: method
+  uid: azure.worker.bindings.blob.InputStream.writable
+references:
+- fullName: azure.worker.bindings.blob.InputStream.read
+  isExternal: false
+  name: read
+  parent: azure.worker.bindings.blob.InputStream
+  uid: azure.worker.bindings.blob.InputStream.read
+- fullName: azure.worker.bindings.blob.InputStream.readable
+  isExternal: false
+  name: readable
+  parent: azure.worker.bindings.blob.InputStream
+  uid: azure.worker.bindings.blob.InputStream.readable
+- fullName: azure.worker.bindings.blob.InputStream.seekable
+  isExternal: false
+  name: seekable
+  parent: azure.worker.bindings.blob.InputStream
+  uid: azure.worker.bindings.blob.InputStream.seekable
+- fullName: azure.worker.bindings.blob.InputStream.writable
+  isExternal: false
+  name: writable
+  parent: azure.worker.bindings.blob.InputStream
+  uid: azure.worker.bindings.blob.InputStream.writable

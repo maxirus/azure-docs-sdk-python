@@ -1,3 +1,115 @@
+- items:
+  - items:
+    - name: azure.worker.aio_compat
+      uid: azure.worker.aio_compat
+    - items:
+      - items:
+        - name: azure.worker.bindings.blob.BlobConverter
+          uid: azure.worker.bindings.blob.BlobConverter
+        - name: azure.worker.bindings.blob.BlobTriggerConverter
+          uid: azure.worker.bindings.blob.BlobTriggerConverter
+        - name: azure.worker.bindings.blob.InputStream
+          uid: azure.worker.bindings.blob.InputStream
+        name: azure.worker.bindings.blob
+        uid: azure.worker.bindings.blob
+      - items:
+        - name: azure.worker.bindings.context.Context
+          uid: azure.worker.bindings.context.Context
+        name: azure.worker.bindings.context
+        uid: azure.worker.bindings.context
+      - items:
+        - name: azure.worker.bindings.cosmosdb.CosmosDBConverter
+          uid: azure.worker.bindings.cosmosdb.CosmosDBConverter
+        - name: azure.worker.bindings.cosmosdb.CosmosDBTriggerConverter
+          uid: azure.worker.bindings.cosmosdb.CosmosDBTriggerConverter
+        name: azure.worker.bindings.cosmosdb
+        uid: azure.worker.bindings.cosmosdb
+      - items:
+        - name: azure.worker.bindings.http.HttpRequest
+          uid: azure.worker.bindings.http.HttpRequest
+        - name: azure.worker.bindings.http.HttpRequestConverter
+          uid: azure.worker.bindings.http.HttpRequestConverter
+        - name: azure.worker.bindings.http.HttpResponseConverter
+          uid: azure.worker.bindings.http.HttpResponseConverter
+        name: azure.worker.bindings.http
+        uid: azure.worker.bindings.http
+      - items:
+        - name: azure.worker.bindings.meta.InConverter
+          uid: azure.worker.bindings.meta.InConverter
+        - name: azure.worker.bindings.meta.OutConverter
+          uid: azure.worker.bindings.meta.OutConverter
+        - name: azure.worker.bindings.meta.TypedDataKind
+          uid: azure.worker.bindings.meta.TypedDataKind
+        name: azure.worker.bindings.meta
+        uid: azure.worker.bindings.meta
+      - items:
+        - name: azure.worker.bindings.out.Out
+          uid: azure.worker.bindings.out.Out
+        name: azure.worker.bindings.out
+        uid: azure.worker.bindings.out
+      - items:
+        - name: azure.worker.bindings.queue.QueueMessage
+          uid: azure.worker.bindings.queue.QueueMessage
+        - name: azure.worker.bindings.queue.QueueMessageInConverter
+          uid: azure.worker.bindings.queue.QueueMessageInConverter
+        - name: azure.worker.bindings.queue.QueueMessageOutConverter
+          uid: azure.worker.bindings.queue.QueueMessageOutConverter
+        name: azure.worker.bindings.queue
+        uid: azure.worker.bindings.queue
+      - items:
+        - name: azure.worker.bindings.timer.TimerRequest
+          uid: azure.worker.bindings.timer.TimerRequest
+        - name: azure.worker.bindings.timer.TimerRequestConverter
+          uid: azure.worker.bindings.timer.TimerRequestConverter
+        name: azure.worker.bindings.timer
+        uid: azure.worker.bindings.timer
+      - name: azure.worker.bindings.Context
+        uid: azure.worker.bindings.Context
+      - name: azure.worker.bindings.Out
+        uid: azure.worker.bindings.Out
+      name: azure.worker.bindings
+      uid: azure.worker.bindings
+    - items:
+      - name: azure.worker.dispatcher.AsyncLoggingHandler
+        uid: azure.worker.dispatcher.AsyncLoggingHandler
+      - name: azure.worker.dispatcher.ContextEnabledTask
+        uid: azure.worker.dispatcher.ContextEnabledTask
+      - name: azure.worker.dispatcher.Dispatcher
+        uid: azure.worker.dispatcher.Dispatcher
+      - name: azure.worker.dispatcher.DispatcherMeta
+        uid: azure.worker.dispatcher.DispatcherMeta
+      name: azure.worker.dispatcher
+      uid: azure.worker.dispatcher
+    - items:
+      - name: azure.worker.functions.FunctionInfo
+        uid: azure.worker.functions.FunctionInfo
+      - name: azure.worker.functions.FunctionLoadError
+        uid: azure.worker.functions.FunctionLoadError
+      - name: azure.worker.functions.ParamTypeInfo
+        uid: azure.worker.functions.ParamTypeInfo
+      - name: azure.worker.functions.Registry
+        uid: azure.worker.functions.Registry
+      name: azure.worker.functions
+      uid: azure.worker.functions
+    - name: azure.worker.loader
+      uid: azure.worker.loader
+    - name: azure.worker.protos
+      uid: azure.worker.protos
+    - items:
+      - name: azure.worker.testutils.AsyncTestCase
+        uid: azure.worker.testutils.AsyncTestCase
+      - name: azure.worker.testutils.AsyncTestCaseMeta
+        uid: azure.worker.testutils.AsyncTestCaseMeta
+      - name: azure.worker.testutils.WebHostTestCase
+        uid: azure.worker.testutils.WebHostTestCase
+      - name: azure.worker.testutils.WebHostTestCaseMeta
+        uid: azure.worker.testutils.WebHostTestCaseMeta
+      name: azure.worker.testutils
+      uid: azure.worker.testutils
+    name: azure.worker
+    uid: azure.worker
+  name: azure
+  uid: azure
 - name: tests
   uid: tests
 
