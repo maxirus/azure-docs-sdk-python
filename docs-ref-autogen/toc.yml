@@ -1,10 +1,3 @@
-- name: azure
-  uid: azure
-- items:
-  - name: azure.worker.bindings.context.Context
-    uid: azure.worker.bindings.context.Context
-  name: azure.worker.bindings.context
-  uid: azure.worker.bindings.context
 - name: tests
   uid: tests
 
