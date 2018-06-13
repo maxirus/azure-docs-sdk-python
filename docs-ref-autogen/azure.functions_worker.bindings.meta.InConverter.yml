@@ -21,7 +21,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 152
+    startLine: 171
   summary: '
 
     '
@@ -41,7 +41,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 154
+    startLine: 173
   syntax:
     content: 'check_input_type_annotation(pytype: type) -> bool'
   type: method
@@ -59,7 +59,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 158
+    startLine: 177
   syntax:
     content: 'from_proto(data: azure.functions_worker.protos.FunctionRpc_pb2.TypedData,
       *, pytype: typing.Union[type, NoneType], trigger_metadata) -> typing.Any'

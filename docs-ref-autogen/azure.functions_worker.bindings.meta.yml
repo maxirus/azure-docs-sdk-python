@@ -38,7 +38,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 188
+    startLine: 207
   syntax:
     content: 'check_input_type_annotation(binding: str, pytype: type) -> bool'
   type: function
@@ -55,7 +55,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 199
+    startLine: 218
   syntax:
     content: 'check_output_type_annotation(binding: str, pytype: type) -> bool'
   type: function
@@ -72,7 +72,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 210
+    startLine: 229
   syntax:
     content: 'from_incoming_proto(binding: str, val: azure.functions_worker.protos.FunctionRpc_pb2.TypedData,
       *, pytype: typing.Union[type, NoneType], trigger_metadata: typing.Union[typing.Dict[str,
@@ -91,7 +91,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 177
+    startLine: 196
   syntax:
     content: 'is_binding(bind_name: str) -> bool'
   type: function
@@ -108,7 +108,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 181
+    startLine: 200
   syntax:
     content: 'is_trigger_binding(bind_name: str) -> bool'
   type: function
@@ -125,7 +125,7 @@ items:
       branch: dev
       path: azure\functions_worker\bindings\meta.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 235
+    startLine: 254
   syntax:
     content: 'to_outgoing_proto(binding: str, obj: typing.Any, *, pytype: typing.Union[type,
       NoneType]) -> azure.functions_worker.protos.FunctionRpc_pb2.TypedData'

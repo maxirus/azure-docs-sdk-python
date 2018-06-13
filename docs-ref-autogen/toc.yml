@@ -27,6 +27,13 @@
         name: azure.functions_worker.bindings.cosmosdb
         uid: azure.functions_worker.bindings.cosmosdb
       - items:
+        - name: azure.functions_worker.bindings.eventgrid.EventGridEvent
+          uid: azure.functions_worker.bindings.eventgrid.EventGridEvent
+        - name: azure.functions_worker.bindings.eventgrid.EventGridEventInConverter
+          uid: azure.functions_worker.bindings.eventgrid.EventGridEventInConverter
+        name: azure.functions_worker.bindings.eventgrid
+        uid: azure.functions_worker.bindings.eventgrid
+      - items:
         - name: azure.functions_worker.bindings.eventhub.EventHubConverter
           uid: azure.functions_worker.bindings.eventhub.EventHubConverter
         - name: azure.functions_worker.bindings.eventhub.EventHubEvent
