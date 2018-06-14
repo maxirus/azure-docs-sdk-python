@@ -1,6 +1,4 @@
 - items:
-  - name: azure.functions
-    uid: azure.functions
   - items:
     - name: azure.functions_worker.aio_compat
       uid: azure.functions_worker.aio_compat
@@ -128,6 +126,4 @@
     uid: azure.functions_worker
   name: azure
   uid: azure
-- name: tests
-  uid: tests
 
