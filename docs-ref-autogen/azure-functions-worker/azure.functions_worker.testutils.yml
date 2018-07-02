@@ -81,7 +81,7 @@ items:
       branch: dev
       path: azure\functions_worker\testutils.py
       repo: https://github.com/Azure/azure-functions-python-worker
-    startLine: 553
+    startLine: 552
   syntax:
     content: start_webhost(*, script_dir=None, stdout=None)
   type: function
