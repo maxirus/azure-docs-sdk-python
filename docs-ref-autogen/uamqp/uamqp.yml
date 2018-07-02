@@ -4,6 +4,7 @@ items:
 - children:
   - uamqp.address
   - uamqp.authentication
+  - uamqp.c_uamqp
   - uamqp.client
   - uamqp.connection
   - uamqp.constants
@@ -259,6 +260,11 @@ references:
   name: authentication
   parent: uamqp.authentication
   uid: uamqp.authentication
+- fullName: uamqp.c_uamqp
+  isExternal: false
+  name: c_uamqp
+  parent: uamqp.c_uamqp
+  uid: uamqp.c_uamqp
 - fullName: uamqp.client
   isExternal: false
   name: client
