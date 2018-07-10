@@ -179,7 +179,7 @@ from azure.mgmt.resource import ResourceManagementClient, SubscriptionClient
     subscription_id = subscription.subscription_id
 
     # Create a Resource Management client
-    resource_client = ResourceManagementClient(credentials, subscription_id)
+    resource_client = ResourceManagementClient(credentials, str(subscription_id))
 
     
     # List resource groups as an example. The only limit is what role and policy are assigned to this MSI token.
